@@ -33,7 +33,20 @@
 }
 
 #landing{
-    /* object-fit: none; */
+    /* object-fit: none; */  
+    position: relative;
+    z-index: 0;
+}
+#action-contact, #action-contact2{
+    position: absolute;
+    z-index: 2;
+}
+
+#action-contact{
+    width: 50%;
+    height: 30%;
+    background-color: #afbd21;
+
 }
 
 .contact-page{
