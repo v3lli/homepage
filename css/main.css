@@ -20,13 +20,8 @@
 .home-page header section{
     width: 1130px;
     /* border: 1px solid red ; */
-    margin-top: -13px;
+    margin-top: -12.5px;
 }
-
-.container{
-    margin-top:-13px;
-}
-
 .home-page header section ul{
     /* border:1px solid blue;  */
     width: 100%;
