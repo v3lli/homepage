@@ -22,7 +22,20 @@
     /* border: 1px solid red ; */
     margin-top: -12.5px;
 }
-.home-page header section ul{
+.home-page header section .form-inline{
     /* border:1px solid blue;  */
+    width: 170px;
+    height: 22px;
+}
+
+.subpage{
     width: 100%;
+}
+
+#landing{
+    /* object-fit: none; */
+}
+
+.contact-page{
+    height: 80vh;
 }
