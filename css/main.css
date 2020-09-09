@@ -1,0 +1,33 @@
+*, *::before , *::after{
+
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    }
+    .homepage{
+        width: 1300px;
+    }
+.home-page header{
+    border-top: 5px solid #858686;
+    background-color: #f0f0f0;
+    border-bottom: 5px solid #a1af26;
+    height: 130px;
+    width: 100%;
+}
+.home-page header section{
+    width: 1130px;
+    /* border: 1px solid red ; */
+    margin-top: -13px;
+}
+
+.container{
+    margin-top:-13px;
+}
+
+.home-page header section ul{
+    /* border:1px solid blue;  */
+    width: 100%;
+}
