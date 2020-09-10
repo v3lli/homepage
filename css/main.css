@@ -93,6 +93,18 @@
     z-index: 2;
 }
 
+#line1, #line2{
+    color: #ffffff;
+}
+
+#line1{
+    font-size: 4.8rem;
+}
+
+#line2{
+    font-size: 8.2rem;
+}
+
 #action-contact2
 {
     position: absolute;
@@ -101,8 +113,8 @@
 
 #action-contact{
     width: 50%;
-    height:27vh;
-    margin-top:22vh;
+    height:40vh;
+    margin-top:23vh;
     background-color: #afbd21;
 
 }
@@ -117,8 +129,18 @@
     transform: rotate(270deg);
 
 }
+
+.trans-buttons{
+    border: 3px solid #ffffff;
+    padding: 10px;
+    width: fit-content;
+}
+
+#green-contact{
+    font-size: 3rem;
+}
 .contact-page{
-    height: 80vh;
+    height: 85vh;
 }
 
 .icons{
