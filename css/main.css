@@ -7,6 +7,10 @@
     box-sizing: border-box;
     
     }
+    html, body {
+        margin: 0px;
+        padding: 0px;
+    } 
     @font-face {
         font-family: 'Droid Sans Bold';
         src: url('../webfonts/droidsans-bold-webfont.woff2') format('woff2'),
@@ -24,7 +28,10 @@
     
     }
     .homepage{
-        width: 1300px;
+        max-width: 1300px;
+    }
+    .home-page{
+        min-width: 100%;
     }
     html{
         font-size: 62.5%;
@@ -174,6 +181,7 @@
 .map-page{
     height: 90vh;
     background-color: #393c36;
+    background-size: 100%;
     background-image: url("../img/map\ -\ no\ roads2.png");
 }
 
@@ -206,8 +214,6 @@
     
 }
 .overlay-cancel{
-    right:0;
-    top: 0;
     height:2rem;
     width:2rem;
     margin-right: 1rem;
@@ -240,7 +246,10 @@
     color:#ffffff ;
 }
 .post{
-    background-color:#ffffff;
+    background-color: rgba(255, 255, b255, 0.85);
+    border: 0.2rem solid #afbd21;
+    box-shadow: -0.3rem -0.3rem 0.2rem 0.1rem #434343;
+    font-family:'Droid Sans Regular';
 }
 
 #tencounty{
