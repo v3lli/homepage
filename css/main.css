@@ -178,15 +178,14 @@
 }
 
 .map-page{
-    max-height: 90vh;
+    height: 90vh;
     background-color: #393c36;
     background-size: cover;
     background-image: url("../img/map\ -\ no\ roads2.png");
-    background-repeat: no-repeat;
 }
 
 .map-page img{
-    max-height: 90%;
+    height: 90%;
     align-self: center;
 }
 
@@ -197,6 +196,7 @@
     z-index: 1; */
     background-color: rgba(14, 15, 13, 0.75);
     width: 100%;
+    background-size: 100%;
 }
 #overlay-info{
     color: #ffffff;
