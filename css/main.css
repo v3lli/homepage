@@ -269,9 +269,9 @@
     width: 100%;
 }
 #county-maps{
-    height: 70vh;
     background-color: #21251f;
     width: 100%;
+    max-height: 85vh;
 }
 #social{
     height: 20vh;
@@ -313,4 +313,14 @@
 .newsletter-page{
     height: 20vh;
     background-color: #afbc22;
+}
+#tencounty p{
+    font-size: 4rem;
+    color:#ffffff;
+    font-family: 'Droid Sans Bold';
+
+}
+
+.radius-map{
+
 }
