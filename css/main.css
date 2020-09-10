@@ -14,7 +14,7 @@
     border-top: 5px solid #858686;
     background-color: #f0f0f0;
     border-bottom: 5px solid #a1af26;
-    height: 130px;
+    height: 20vh;
     width: 100%;
 }
 .home-page header section{
@@ -42,19 +42,72 @@
     z-index: 2;
 }
 
+#action-contact2
+{
+    position: absolute;
+    z-index: 3;
+}
+
 #action-contact{
     width: 50%;
-    height: 45%;
-    margin-top: 120px;
+    height: 35%;
+    margin-top:22vh;
     background-color: #afbd21;
 
 }
 
-#action-contact2 p{
-    width: 25px;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
+#action-contact2{
+    width: 120px;
+    background-color: #849499;
+    border: 1px solid #a1af26;
+    height: 25px;
+    text-align: center;
+    right:-50px;
+    transform: rotate(270deg);
+
 }
 .contact-page{
-    height: 90vh;
+    height: 80vh;
+}
+
+.icons{
+    background-color: #f0f0f0;
+    height: 25vh;
+
+}
+
+.cnbc-page{
+    height: 45vh;
+}
+
+.map-page{
+    height: 80vh;
+    background-color: #393c36;
+}
+
+.map-page img{
+    height: 90%;
+    align-self: center;
+}
+
+#map-overlay{
+    position: absolute;
+    bottom: -149%;
+    background-color: rgba(14, 15, 13, 0.75);
+    z-index: 1;
+    height: 40%;
+    width: 100%;
+    left: 0px;
+}
+.communitynews-page{
+    height: 60vh;
+}
+.community{
+    width: 50%;
+    height: 100%;
+    background-color: #afbd21;
+}
+.news{
+    width:50%;
+    height: 100%;
 }
