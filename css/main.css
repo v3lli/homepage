@@ -7,8 +7,27 @@
     box-sizing: border-box;
     
     }
+    @font-face {
+        font-family: 'Droid Sans Bold';
+        src: url('../webfonts/droidsans-bold-webfont.woff2') format('woff2'),
+             url('../webfonts/droidsans-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    @font-face {
+        font-family: 'Droid Sans Regular';
+        src: url('../webfonts/droidsans-webfont.woff2') format('woff2'),
+             url('../webfonts/droidsans-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
     .homepage{
         width: 1300px;
+    }
+    html{
+        font-size: 62.5%;
     }
 .home-page header{
     border-top: 5px solid #858686;
@@ -21,12 +40,44 @@
     width: 1130px;
     /* border: 1px solid red ; */
     margin-top: -12.5px;
+
 }
 .home-page header section .form-inline{
     /* border:1px solid blue;  */
-    width: 170px;
-    height: 22px;
+    width: 17rem;
+    height: 2.2rem;
 }
+
+.navbar-custom ul li a{
+    font-size:1.8rem;
+    font-family: 'Droid Sans Bold';
+    /* color: #434343; */
+}
+
+.navbar-nav  li{
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-bottom: 1rem;
+  }
+
+#header-bd-engine{
+    font-size: 1.6rem;
+    font-family: "Droid Sans Regular";
+    color: #434343;
+}
+
+#header-phone{
+    font-size:1.8rem;
+    font-family: 'Droid Sans Bold';
+    color: #afbd21;
+    height: 20px;
+    padding-bottom: 20px;
+}
+
+#header-search{
+    height: 20px;
+}
+
 
 .subpage{
     width: 100%;
@@ -50,7 +101,7 @@
 
 #action-contact{
     width: 50%;
-    height: 35%;
+    height:27vh;
     margin-top:22vh;
     background-color: #afbd21;
 
@@ -103,11 +154,59 @@
     height: 60vh;
 }
 .community{
-    width: 50%;
+    width: 49%;
     height: 100%;
     background-color: #afbd21;
 }
 .news{
-    width:50%;
+    width:49%;
     height: 100%;
+    background-image: url("../img/bg\ cover\ img.jpg");
+}
+#tencounty{
+    height:10vh;
+    background-color: #505812;
+    width: 100%;
+}
+#county-maps{
+    height: 70vh;
+    background-color: #21251f;
+    width: 100%;
+}
+#social{
+    height: 20vh;
+    background-color: #434343;
+    width: 100%;
+}
+.othernews-page{
+    height: 80vh;
+    background-image: url("../img/Color\ Fill\ 1.jpg");
+}
+#boat, #street, #train{
+    height: 40vh;
+    background-size: 100%;
+}
+
+#boat, #train{
+    width: 40%;
+}
+
+#street{
+    width:20%;
+}
+#boat{
+    background-image: url('../img/img1.jpg');
+}
+#street{
+    background-image: url('../img/img2.jpg');
+}
+#train{
+    background-image: url('../img/img3.jpg');
+}
+.investormembers-page{
+    height: 40vh;
+}
+.newsletter-page{
+    height: 20vh;
+    background-color: #afbc22;
 }

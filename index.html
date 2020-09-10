@@ -6,33 +6,33 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type='text/css' media='screen'href="css/fontawesome.min.css">
+    <link rel="stylesheet" type='text/css' media='screen'href="css/all.min.css">
+    <link rel="stylesheet" type='text/css' media='screen'href="css/main.css">
 </head>
 <body class="homepage">
     <main class="home-page">
         <header>            
-            <nav class="navbar navbar-expand-lg navbar-custom d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-custom d-flex justify-content-center">
                 <section class="d-flex d-row justify-content-between">
                     <img src="img/APEX triangle logo.png" alt="">
                     <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse d-flex flex-column align-content-end" id="navbar9">
-                        <div class="d-flex flex-row-reverse ml-auto px-4" >
+                        <div id="header-bd-engine" class="d-flex flex-row-reverse ml-auto px-4 my-4" >
                             <p>Business Development Engine for Northeast Minnesota and Northwest Wisconsin</p>
                         </div>
                         <div class="d-flex flex-row ml-auto px-4">
-                            <p class="px-4">CALL 218.740.3667</p>
-                            <form class="ml-auto">
+                            <p id="header-phone" class="px-4 mb-3">CALL 218.740.3667</p>
+                            <form id="header-search" class="ml-auto mb-2">
                                 <input class="mr-sm-2" type="text" placeholder="Search">
                                 <button class="my-2 my-sm-0" type="submit">Search</button>
                             </form>
                        </div>
-                        <ul class="navbar-nav d-flex flex-row justify-content-around ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Apex</a>
+                        <ul class="navbar-nav d-flex flex-row justify-content-around ml-auto pb-5">
+                            <li class="nav-item active">
+                                <a class="nav-link " href="#">About Apex</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Investor-Members</a>
@@ -84,12 +84,46 @@
             <img src="img/map - no roads.png" alt="">
             <div id="map-overlay"></div>
         </section>
-        <section class="subpage communitynews-page">
+        <section class="subpage communitynews-page d-flex flex-row">
             <div class="community">
-                
+
             </div>
             <div class="news">
-
+                <div class="news1"></div>
+                <div class="news2"></div>
+                <div class="button">View All News</div>
+            </div>
+        </section>
+        <section class="subpage county-page">
+            <div id="tencounty"></div>
+            <div id="county-maps"></div>
+            <div id="social"></div>
+        </section>
+        <section class="subpage othernews-page">
+        <div class="twittercard"></div>
+        <div class="instacard"></div>
+        <div class="northforcecard"></div>
+        </section>
+        <section class="subpage hovers-page d-flex flex-row">
+            <div id="boat"></div>
+            <div id="street"></div>
+            <div id="train"></div>
+        </section>
+        <section class="subpage investormembers-page d-flex flex-column">
+            <div class="mx-auto my-2">INVESTOR MEMBERS</div>
+            <div class="container mx-auto justify-content-around align-self-center d-flex row my-5 px-3">
+                <img class ="h-50 mt-2" src="img/left arrow.png" alt="">
+                <img class ="h-75" src="img/logo img.png" alt="">
+                <img class ="h-75" src="img/logo img-1.png" alt="">
+                <img class ="h-75" src="img/logo img-2.png" alt="">
+                <img class ="h-75" src="img/logo img-3.png" alt="">
+                <img class ="h-50 mt-2" src="img/right arrow.png" alt="">
+        </div>
+        </section>
+        <section class="subpage newsletter-page">
+            <div>
+                <div>APEX PINNACLE NEWSLETTER</div>
+                <div>SUBSCRIBE NOW</div>
             </div>
         </section>
     </main>
