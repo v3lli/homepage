@@ -98,11 +98,12 @@
 }
 
 #line1{
-    font-size: 4.8rem;
+    font-size: 4.0rem;
+    line-height: 60px;
 }
 
 #line2{
-    font-size: 8.2rem;
+    font-size: 8.0rem;
 }
 
 #action-contact2
@@ -132,12 +133,16 @@
 
 .trans-buttons{
     border: 3px solid #ffffff;
-    padding: 10px;
     width: fit-content;
+    color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.4rem;
 }
 
 #green-contact{
-    font-size: 3rem;
+    font-size: 2.4rem;
+    height: 5rem;
 }
 .contact-page{
     height: 85vh;
