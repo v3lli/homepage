@@ -178,14 +178,15 @@
 }
 
 .map-page{
-    height: 90vh;
+    max-height: 90vh;
     background-color: #393c36;
-    background-size: 100%;
+    background-size: cover;
     background-image: url("../img/map\ -\ no\ roads2.png");
+    background-repeat: no-repeat;
 }
 
 .map-page img{
-    height: 90%;
+    max-height: 90%;
     align-self: center;
 }
 
@@ -196,7 +197,6 @@
     z-index: 1; */
     background-color: rgba(14, 15, 13, 0.75);
     width: 100%;
-    background-size: 100%;
 }
 #overlay-info{
     color: #ffffff;
@@ -240,6 +240,7 @@
 
 #readnews{
     background-image: url("../img/bg\ cover\ img.jpg");
+    background-size: cover;
 }
 #readnews{
     color:#ffffff ;
@@ -285,6 +286,7 @@
 .othernews-page{
     height: 80vh;
     background-image: url("../img/Color\ Fill\ 1.jpg");
+    background-size: cover;
 }
 #boat, #street, #train{
     height: 40vh;
@@ -300,12 +302,15 @@
 }
 #boat{
     background-image: url('../img/img1.jpg');
+    background-size: cover;
 }
 #street{
     background-image: url('../img/img2.jpg');
+    background-size: cover;
 }
 #train{
     background-image: url('../img/img3.jpg');
+    background-size: cover;
 }
 .investormembers-page{
     height: 40vh;
