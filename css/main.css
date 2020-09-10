@@ -1,9 +1,4 @@
 *, *::before , *::after{
-
-    -ms-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
     box-sizing: border-box;
     }
     
@@ -32,10 +27,10 @@
     
     }
     .homepage{
-        max-width: 1300px;
+        min-width: 100%;
     }
     .home-page{
-        min-width: 100%;
+        
     }
     html{
         font-size: 62.5%;
