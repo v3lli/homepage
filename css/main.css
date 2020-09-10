@@ -10,7 +10,8 @@
     html, body {
         margin: 0px;
         padding: 0px;
-    } 
+    }
+
     @font-face {
         font-family: 'Droid Sans Bold';
         src: url('../webfonts/droidsans-bold-webfont.woff2') format('woff2'),
@@ -41,7 +42,6 @@
     background-color: #f0f0f0;
     border-bottom: 5px solid #a1af26;
     height: 20vh;
-    width: 100%;
 }
 .home-page header section{
     width: 1130px;
@@ -136,10 +136,12 @@
     border: 1px solid #a1af26;
     height: 25px;
     text-align: center;
-    right:-65px;
+    right:-50px;
     transform: rotate(270deg);
     font-size: 1.6rem;
     color: #434343;
+    justify-self: center;
+    align-self: flex-end;
 }
 
 .trans-buttons{
