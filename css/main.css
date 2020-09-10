@@ -133,7 +133,6 @@
     transform: rotate(270deg);
     font-size: 1.6rem;
     color: #434343;
-
 }
 
 .trans-buttons{
@@ -153,14 +152,23 @@
     height: 85vh;
 }
 
-.icons{
+.icon-page{
     background-color: #f0f0f0;
-    height: 25vh;
+    height: 30vh;
+    font-family: 'Droid Sans Bold';
+    font-size: 1.5rem;
+}
 
+.icon img{
+    height: 10rem;
 }
 
 .cnbc-page{
-    height: 45vh;
+    height: 47vh;
+}
+
+.cnbc-page img{
+    object-fit: cover;
 }
 
 .map-page{
@@ -186,7 +194,7 @@
     height: 60vh;
 }
 .community{
-    width: 49%;
+    width: 50%;
     height: 100%;
     background-color: #afbd21;
 }
