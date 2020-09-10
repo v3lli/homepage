@@ -100,8 +100,11 @@
 #line1{
     font-size: 4.0rem;
     line-height: 60px;
+    text-shadow: 0.35rem -0.35rem 0.4rem gray;
 }
-
+.shadow2{
+    text-shadow: -0.15rem -0.35rem 0.4rem gray;
+}
 #line2{
     font-size: 8.0rem;
 }
@@ -126,8 +129,10 @@
     border: 1px solid #a1af26;
     height: 25px;
     text-align: center;
-    right:-50px;
+    right:-65px;
     transform: rotate(270deg);
+    font-size: 1.6rem;
+    color: #434343;
 
 }
 
