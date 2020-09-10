@@ -7,6 +7,9 @@
         padding: 0px;
     }
 
+    html{
+        overflow-x: hidden;
+    }
     
 
     @font-face {
@@ -25,9 +28,6 @@
         font-style: normal;
     
     }
-    .homepage{
-        
-    } 
     .home-page{
         max-width: 1300px;
     }
@@ -38,7 +38,7 @@
     border-top: 5px solid #858686;
     background-color: #f0f0f0;
     border-bottom: 5px solid #a1af26;
-    height: 20vh;
+    height: 130px;
 }
 .home-page header section{
     width: 1130px;
@@ -90,7 +90,7 @@
 #landing{
     /* object-fit: none; */  
     position: relative;
-    z-index: 0;
+    z-index: -10;
 }
 #action-contact, #action-contact2{
     position: absolute;
