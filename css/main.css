@@ -214,18 +214,35 @@
     margin-top: 1rem;
 }
 .communitynews-page{
-    height: 60vh;
+    height: 65vh;
 }
 .community{
     width: 50%;
     height: 100%;
     background-color: #afbd21;
 }
-.news{
-    width:50%;
-    height: 100%;
+/* .communitynews-page div div img{
+ object-fit: ;
+} */
+
+.video-news{
+    background-color: #afbd21;
+}
+.news-header{
+    font-family: 'Droid Sans Regular';
+    font-size: 2rem;
+}
+
+#readnews{
     background-image: url("../img/bg\ cover\ img.jpg");
 }
+#readnews{
+    color:#ffffff ;
+}
+.post{
+    background-color:#ffffff;
+}
+
 #tencounty{
     height:10vh;
     background-color: #505812;
