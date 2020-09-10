@@ -133,12 +133,10 @@
     border: 1px solid #a1af26;
     height: 25px;
     text-align: center;
-    right:-50px;
+    left: 94.4%;
     transform: rotate(270deg);
     font-size: 1.6rem;
     color: #434343;
-    justify-self: center;
-    align-self: flex-end;
 }
 
 .trans-buttons{
@@ -156,6 +154,7 @@
 }
 .contact-page{
     height: 85vh;
+    position: relative;
 }
 
 .icon-page{
@@ -168,11 +167,6 @@
 .icon img{
     height: 10rem;
 }
-
-.cnbc-page{
-    height: 47vh;
-}
-
 .cnbc-page img{
     object-fit: cover;
 }
@@ -182,6 +176,7 @@
     background-color: #393c36;
     background-size: cover;
     background-image: url("../img/map\ -\ no\ roads2.png");
+    background-position: center;
 }
 
 .map-page img{
