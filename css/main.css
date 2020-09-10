@@ -251,10 +251,26 @@
     color:#ffffff ;
 }
 .post{
-    background-color: rgba(255, 255, b255, 0.85);
+    background-color: rgba(255, 255, 255, 0.85);
     border: 0.2rem solid #afbd21;
     box-shadow: -0.3rem -0.3rem 0.2rem 0.1rem #434343;
     font-family:'Droid Sans Regular';
+    padding: 0.6rem;
+    height: fit-content;
+}
+.post h4, .post a {
+    color: #285592;
+    font-size: 1.4rem;
+    font-family: 'Droid Sans Regular';
+}
+.post p{
+    color: #434343;
+    font-size: 1rem;
+    font-family: 'Droid Sans Regular';
+}
+.post a{
+    bottom: 0;
+    right: 0;
 }
 
 #tencounty{
