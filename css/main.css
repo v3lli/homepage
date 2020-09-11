@@ -30,6 +30,7 @@
     }
     .home-page{
         max-width: 1300px;
+        position: relative;
     }
     html{
         font-size: 62.5%;
@@ -38,7 +39,10 @@
     border-top: 5px solid #858686;
     background-color: #f0f0f0;
     border-bottom: 5px solid #a1af26;
-    height: 130px;
+    /* height: 130px; */
+    min-height: 130px;
+    position: relative;
+    z-index: 2;
 }
 .home-page header section{
     width: 1130px;
@@ -56,6 +60,13 @@
     font-size:1.8rem;
     font-family: 'Droid Sans Bold';
     /* color: #434343; */
+}
+.navbar-brand{
+    height: 150px;
+}
+
+.active{
+    color: #afbd21;
 }
 
 .navbar-nav  li{
@@ -87,14 +98,8 @@
     width: 100%;
 }
 
-#landing{
-    /* object-fit: none; */  
-    position: relative;
-    z-index: -10;
-}
 #action-contact, #action-contact2{
     position: absolute;
-    z-index: 2;
 }
 
 #line1, #line2{
@@ -103,6 +108,7 @@
 
 #line1{
     font-size: 4.0rem;
+    font-family: 'Droid Sans Regular';
     line-height: 60px;
     text-shadow: 0.35rem -0.35rem 0.4rem gray;
 }
@@ -111,21 +117,21 @@
 }
 #line2{
     font-size: 8.0rem;
+    font-family: 'Droid Sans Bold';
 }
 
 #action-contact2
 {
     position: absolute;
-    z-index: 3;
+    z-index: 1;
 }
 
 #action-contact{
-    width: 50%;
-    height:40vh;
-    margin-top:23vh;
     background-color: #afbd21;
-
+    z-index: 1;
+    top:30rem;
 }
+
 
 #action-contact2{
     width: 120px;
@@ -155,6 +161,10 @@
 .contact-page{
     height: 85vh;
     position: relative;
+}
+
+.contact-page img{
+   object-fit: cover ;
 }
 
 .icon-page{
