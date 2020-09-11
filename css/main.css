@@ -13,27 +13,27 @@
     }
 
     @media only screen and (max-width: 1921px){
-        html{
+        /* html{
             font-size: 75%;    
-        }
+        } */
     }
 
     @media only screen and (max-width: 1024px){
-        html{
+        /* html{
             font-size: 56.25%;    
-        }
+        } */
     }
 
     @media only screen and (max-width: 768px){
-        html{
+        /* html{
             font-size: 50%;    
-        }
+        } */
     }
 
     @media only screen and (max-width: 375px){
-        html{
+        /* html{
             font-size: 50%;    
-        }
+        } */
     }
     
 
@@ -188,7 +188,7 @@
 #action-contact{
     background-color: #afbd21;
     z-index: 1;
-    top:30rem;
+    top:20rem;
 }
 
 @media only screen and (max-width: 768px){
