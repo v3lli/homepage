@@ -9,6 +9,31 @@
 
     html{
         overflow-x: hidden;
+        font-size: 62.5%;
+    }
+
+    @media only screen and (max-width: 1921px){
+        html{
+            font-size: 75%;    
+        }
+    }
+
+    @media only screen and (max-width: 1024px){
+        html{
+            font-size: 56.25%;    
+        }
+    }
+
+    @media only screen and (max-width: 768px){
+        html{
+            font-size: 50%;    
+        }
+    }
+
+    @media only screen and (max-width: 375px){
+        html{
+            font-size: 50%;    
+        }
     }
     
 
@@ -29,12 +54,10 @@
     
     }
     .home-page{
-        max-width: 1300px;
+        max-width: 130rem;
         position: relative;
     }
-    html{
-        font-size: 62.5%;
-    }
+
 .home-page header{
     border-top: 5px solid #858686;
     background-color: #f0f0f0;
@@ -57,7 +80,7 @@
 }
 
 .navbar-custom ul li a{
-    font-size:1.8rem;
+    font-size:1.4rem;
     font-family: 'Droid Sans Bold';
     /* color: #434343; */
 }
@@ -98,6 +121,10 @@
     width: 100%;
 }
 
+#landing-contact{
+    width: inherit;
+}
+
 #action-contact, #action-contact2{
     position: absolute;
 }
@@ -106,12 +133,21 @@
     color: #ffffff;
 }
 
+@media only screen and (max-width: 768px){
+    #line1, #line2{
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
 #line1{
     font-size: 4.0rem;
     font-family: 'Droid Sans Regular';
-    line-height: 60px;
+    line-height: 6rem;
     text-shadow: 0.35rem -0.35rem 0.4rem gray;
 }
+
 .shadow2{
     text-shadow: -0.15rem -0.35rem 0.4rem gray;
 }
@@ -120,16 +156,47 @@
     font-family: 'Droid Sans Bold';
 }
 
+@media only screen and (max-width: 1400px){
+    #line1{
+        font-size: 2.75rem;    
+        line-height: 5rem;
+    }
+
+    #line2{
+        font-size: 6.75rem;    
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #line1{
+        font-size: 2rem;    
+        line-height: 3rem;
+    }
+
+    #line2{
+        font-size: 4rem;    
+    }
+}
+
 #action-contact2
 {
     position: absolute;
     z-index: 1;
 }
 
+
 #action-contact{
     background-color: #afbd21;
     z-index: 1;
     top:30rem;
+}
+
+@media only screen and (max-width: 768px){
+    #action-contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 
@@ -145,6 +212,27 @@
     color: #434343;
 }
 
+@media only screen and (max-width: 1024px){
+    #action-contact2{
+        left: 93%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #action-contact2{
+        left: 90.6%;
+        top: 44%;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    #action-contact2{
+        left: 81.2%;
+    }
+}
+
+
 .trans-buttons{
     border: 3px solid #ffffff;
     width: fit-content;
@@ -157,6 +245,13 @@
 #green-contact{
     font-size: 2.4rem;
     height: 5rem;
+}
+
+@media only screen and (max-width: 768px){
+    #green-contact{
+        margin-left: 0 !important;
+        align-self: center;
+    }
 }
 .contact-page{
     height: 85vh;
@@ -179,6 +274,7 @@
 }
 .cnbc-page img{
     object-fit: cover;
+    width: inherit;
 }
 
 .map-page{
@@ -382,4 +478,118 @@
 
 #nl{
     text-shadow: -0.15rem -0.35rem 0rem gray;
+}
+
+.investors{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1024px){
+    .pl-5{
+        width: 60rem;
+    }
+    .p1-55{
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .pl-5{
+        width: 50rem;
+    }
+    .p1-55{
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .investors{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 30rem;
+    }
+
+    .arrows{
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .communitynews-page{
+        
+        justify-content: center;
+        flex-direction: column !important;
+        height: auto;
+        /* width: 30rem; */
+    }
+
+    .communitynews-page > *{
+        width: 100% !important;
+    }
+
+    .trans-buttons{
+        margin: 2rem !important;
+    }
+    
+}
+
+@media only screen and (max-width: 375px){
+    .icon-page{
+       
+        justify-content: center;
+        flex-direction: column;
+        /* width: 30rem; */
+        padding: 4rem 0;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+    .map-page{
+       width: 100%;
+       height: auto;
+    }
+
+    #map-overlay{
+        margin-top: 22rem !important;
+     }
+
+    #main-video{
+        width: 30rem
+    }
+
+    #county-maps{
+        /* display: flex; */
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pl-5{
+        width: 40rem;
+    }
+    .p1-55{
+        width: 30rem;
+        margin-bottom: 2rem;
+    }
+
+    .fortune-companies{
+        flex-direction: column !important;
+    }
+
+    #boat{
+        width: 100%;
+    }
+
+    #street{
+        width: 100%;
+    }
+
+    #train{
+        width: 100%;
+    }
+
 }
