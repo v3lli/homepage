@@ -308,14 +308,19 @@
     background-size: cover;
 }
 .hoverlay{
-    background-color: rgba(54, 49, 49, 0.671);
-    display: none;
+    
     font-family: 'Droid Sans Bold';
     font-size: 4.2rem;
-    color: #ffffff;
+    
+}
+.hoverlay p{
+    color:transparent;
 }
 .hoverlay:hover{
-    display: block;
+    background-color: rgba(54, 49, 49, 0.671);
+}
+.hoverlay p:hover{
+    color: #ffffff;
 }
 .investormembers-page{
     min-height: 40vh;
