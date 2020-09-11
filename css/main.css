@@ -12,28 +12,28 @@
         font-size: 62.5%;
     }
 
-    @media only screen and (max-width: 1921px){
-        /* html{
+    @media only screen and (max-width: 112.5em){
+        html{
             font-size: 75%;    
-        } */
+        }
     }
 
-    @media only screen and (max-width: 1024px){
-        /* html{
+    @media only screen and (max-width: 75em){
+        html{
             font-size: 56.25%;    
-        } */
+        }
     }
 
-    @media only screen and (max-width: 768px){
-        /* html{
+    @media only screen and (max-width: 56.25em){
+        html{
             font-size: 50%;    
-        } */
+        }
     }
 
-    @media only screen and (max-width: 375px){
-        /* html{
+    @media only screen and (max-width: 37.5em){
+        html{
             font-size: 50%;    
-        } */
+        }
     }
     
 
@@ -133,6 +133,18 @@
     color: #ffffff;
 }
 
+.card{
+    padding: 2rem 1rem;
+}
+
+.card:not(:last-child){
+    margin-right: auto;
+}
+
+.card-image{
+    margin: 2rem 0;
+}
+
 @media only screen and (max-width: 768px){
     #line1, #line2{
         display: flex;
@@ -188,7 +200,7 @@
 #action-contact{
     background-color: #afbd21;
     z-index: 1;
-    top:20rem;
+    top:30rem;
 }
 
 @media only screen and (max-width: 768px){
@@ -226,7 +238,7 @@
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 375px){
     #action-contact2{
         left: 81.2%;
     }
@@ -532,6 +544,23 @@
     .trans-buttons{
         margin: 2rem !important;
     }
+
+    .fortune-companies{
+        flex-direction: column !important;
+    }
+
+    
+    #boat{
+        width: 100%;
+    }
+
+    #street{
+        width: 100%;
+    }
+
+    #train{
+        width: 100%;
+    }
     
 }
 
@@ -561,6 +590,11 @@
         width: 30rem
     }
 
+    #thumbs{
+        justify-content: center;
+        width: 10rem;
+    }
+
     #county-maps{
         /* display: flex; */
         flex-direction: column !important;
@@ -574,22 +608,6 @@
     .p1-55{
         width: 30rem;
         margin-bottom: 2rem;
-    }
-
-    .fortune-companies{
-        flex-direction: column !important;
-    }
-
-    #boat{
-        width: 100%;
-    }
-
-    #street{
-        width: 100%;
-    }
-
-    #train{
-        width: 100%;
     }
 
 }
