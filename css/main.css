@@ -173,7 +173,7 @@
         font-size: 2.75rem;    
         line-height: 5rem;
     }
-
+    
     #line2{
         font-size: 6.75rem;    
     }
@@ -184,6 +184,8 @@
         font-size: 2rem;    
         line-height: 3rem;
     }
+
+    
 
     #line2{
         font-size: 4rem;    
@@ -200,7 +202,7 @@
 #action-contact{
     background-color: #afbd21;
     z-index: 1;
-    top:30rem;
+    top:20rem;
 }
 
 @media only screen and (max-width: 768px){
@@ -209,6 +211,7 @@
         justify-content: center;
         flex-direction: column;
     }
+    
 }
 
 
@@ -461,7 +464,7 @@
 }
 
 #tencounty p{
-    font-size:4rem;
+    font-size:2.5rem;
 }
 
 #social-call{
@@ -496,7 +499,40 @@
     display: flex;
     justify-content: center;
 }
+.last{
+    background-color:#434343; 
+    height: 15rem;
+    font-family: 'Droid Sans Regular';
+}
 
+.addy{
+    color:#ffffff;
+    font-size:1.6rem;
+}
+
+.many-many{
+    color: #afbd21;
+    font-family: 'Droid Sans Regular';
+    font-size: 1.2rem;
+}
+
+.bottom{
+    background-color: #666767;
+    height: 5rem;
+    color:#dfdfdf ;
+    font-family: 'Droid Sans Regular';
+    position: absolute;
+}
+
+.bottom-nav{
+    font-size: 1.6rem;
+}
+.cpr{
+    font-size: 1rem;
+}
+.trans-buttons:hover, #subscribe:hover{
+    background-color: orange;
+}
 @media only screen and (max-width: 1024px){
     .pl-5{
         width: 60rem;
@@ -609,5 +645,7 @@
         width: 30rem;
         margin-bottom: 2rem;
     }
+
+    
 
 }
